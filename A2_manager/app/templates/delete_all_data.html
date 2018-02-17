@@ -1,0 +1,5 @@
+{% extends "base.html" %}
+{% block content %}
+    <p>Successfully deleted all data in database and S3</p>
+    <div><a href="{{url_for('ec2_list')}}" class = "button">Go Back</a></div>
+{% endblock %}
